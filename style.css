@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #2963AD;
+    margin: 10px auto;
+    border-radius: 25px 25px 5px 5px;
+    width: 900px;
+    box-shadow: -2px 5px 12px 6px rgba(0,0,0,0.78);
+    border: 2px solid #265ba6;
+}
+
+.card-name {
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    padding: 15px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.photo-profile{
+    height: 250px;
+    width: 300px;
+    padding: 0;
+    margin-right: 50px;
+    margin-top: 10px;
+    background-color:#2963AD;
+  }
+
+  .name {
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+  }
+
+  .name p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+
+  }
+  
+  .name-photo {
+    display:flex ;
+    justify-content: space-between;
+    margin-left: 10px;
+
+  }
+
+  .sosmed {
+    display: flex;
+    justify-content:center;
+  }
+
+  .sosmed a {
+    color: white;
+    
+  }
+
+  .sosmed i{
+    padding-left: 20px;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .sosmed i:hover{
+    color: #03bfbc;
+  }
+
+  .language { 
+    margin-left: 3px; 
+    margin-top: -60px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  th {
+    text-align: left;
+    font-size: 10px;
+  }
+  td {
+    text-align: justify;
+    font-size: 10px;
+  }
+
+  th,td {
+    padding: 5px;
+  }
+
+  .ket {
+    margin-left: 10px;
+    color: white;
+    width: 880px;
+    font-size: 14px;
+  }
+
+
