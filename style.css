@@ -313,11 +313,11 @@ padding-bottom: 12px;
     margin-top: 15px;
     margin-left: 15px;
     color: #2a62ad;
-    text-decoration: underline;
 }
 
 .education h1 {
     font-size: 25px;
+    text-decoration: underline;
 }
 
 .education-part {
