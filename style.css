@@ -75,30 +75,43 @@ body {
     border-bottom: 2px solid #2a62ad;
 }
 
-.resume {
+.header-logo {
     position: absolute;
     top: 10px;
     width: 50px;
 }
 
-.header .judul {
+.header .header-title {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
 
-.sosmed {
+.content {
+    position: relative;
+    border-top: 2px solid #2a62ad;
+}
+
+.content-sosmed {
     padding: 15px 0 0 15px;
 }
 
-.sosmed div {
+.content-sosmed div {
     margin: 0;
     display: flex;
 }
 
-.sosmed i {
+.content-sosmed i {
     font-size: 30px;
   }
+
+.content-sosmed p {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #2a62ad;
+
+}
 
 .fa-square-instagram {
     background: #d6249f;
@@ -115,55 +128,48 @@ body {
     color:#0a66c2;
 }
 
-.sosmed p {
-    font-size: 10px;
-    margin-top: 5px;
-    margin-left: 10px
-
-}
-
-.languages {
+.container-languages {
     margin: 15px 0 0 15px;
     color: #2a62ad;
 }
 
 
-.languages h1 {
+.container-languages h1 {
     font-size: 25px;
     text-decoration: underline 2px;
 }
 
-.languages .bahasa {
+.container-languages .languages {
     padding: 5px 0 0 0;
 }
 
-.languages .bahasa .english {
+.container-languages .languages .english {
     display: flex;
     flex-direction: row;
 }
 
-.languages .bahasa .japanese {
+.container-languages .languages .japanese {
     display: flex;
     flex-direction: row;
 }
 
-.languages .bahasa .arabic {
+.container-languages .languages .arabic {
     display: flex;
     flex-direction: row;
 }
 
-.languages .bahasa .english .bar {
+.container-languages .languages .english .bar-1 {
     margin-left: 23px;
 }
 
-.languages .bahasa .japanese .bar-2 {
+.container-languages .languages .japanese .bar-2 {
     margin-left: 15px;
 }
 
-.languages .bahasa .arabic .bar-3 {
+.container-languages .languages .arabic .bar-3 {
     margin-left: 28px;
 }
-.languages .bahasa .square {
+.container-languages .languages .square {
     height: 8px;
     width: 8px;
     background-color: #2a62ad;
@@ -195,11 +201,6 @@ body {
 }
 
 /* card */
-
-.content {
-    position: relative;
-    border-top: 2px solid #2a62ad;
-}
 .container-card {
     width: 400px;
     height:100px;
@@ -271,56 +272,56 @@ body {
       margin-top: 45px;
 }
 
-.informasi {
+.information {
     margin:0 0 0 12px;
 }
 
-.informasi p {
+.information p {
     display: inline-block;
     font-size: 10px;
     margin-left: 5px;
 }
 
-.informasi i {
+.information i {
     font-size: 10px;
 }
 
-.informasi .telephone {
+.information .telephone {
     margin-top: 0px;
 }
 
-.informasi .mail {
+.information .mail {
     margin-top: -9px;
 }
 
-.informasi .address {
+.information .address {
     margin-top: -9px;
 }
 
-.ket {
+.description {
 margin-left: -5px;
 margin-right: 5px ;
 padding-bottom: 12px;
 }
 
-.ket p {
+.description p {
     font-size: 12px;
     line-height: 1;
 }
 
 /* page 2 */
-.education {
+.container-education {
     margin-top: 15px;
     margin-left: 15px;
     color: #2a62ad;
 }
 
-.education h1 {
+.container-education h1 {
     font-size: 25px;
     text-decoration: underline;
 }
 
-.education-part {
+.education {
     margin-top: 15px;
     margin-left: 5px;
 }
@@ -370,11 +371,11 @@ padding-bottom: 12px;
     line-height: 1;
 }
 
-.name-hist-1 .name-dua {
+.name-hist-1 .name-two {
     margin-left: 103px;
 }
 
-.name-hist-1 .name-tiga {
+.name-hist-1 .name-three {
     margin-left: 100px;
 }
 
@@ -391,30 +392,30 @@ padding-bottom: 12px;
     line-height: 1;
 }
 
-.name-hist-2 .name-empat {
+.name-hist-2 .name-four {
     margin-left: 60px;
 }
 
-.name-hist-2 .name-lima {
+.name-hist-2 .name-five {
     margin-left: 83px;
 }
 
-.name-hist-1 .name-satu .tahun-1 {
+.name-hist-1 .name-one .years-1 {
     line-height: 2;
 }
 
-.name-hist-1 .name-dua .tahun-2 {
+.name-hist-1 .name-two .years-2 {
     line-height: 2;
 }
 
-.name-hist-1 .name-tiga .tahun-3 {
+.name-hist-1 .name-three .years-3 {
     line-height: 2;
 }
 
-.name-hist-2 .name-empat .tahun-4 {
+.name-hist-2 .name-four .years-4 {
     line-height: 2;
 }
-.name-hist-2 .name-lima .tahun-5 {
+.name-hist-2 .name-five .years-5 {
     line-height: 2;
 }
 
@@ -439,7 +440,7 @@ padding-bottom: 12px;
     font-size: 12px;
 }
 
-.flow-skill .garis-1 {
+.flow-skill .line-1 {
     border-left: 1px solid black;
     height:20px;
     margin-left: 115px;
@@ -458,7 +459,7 @@ padding-bottom: 12px;
     margin-left: 50px;
 }
 
-.flow-skill .garis-2 {
+.flow-skill .line-2 {
     border-left: 1px solid black;
     height:20px;
     margin-left: 65px;
@@ -477,7 +478,7 @@ padding-bottom: 12px;
     margin-left: 10px;
 }
 
-.flow-skill .garis-3 {
+.flow-skill .line-3 {
     border-left: 1px solid black;
     height:20px;
     margin-left: 65px;
@@ -495,7 +496,7 @@ padding-bottom: 12px;
     margin-left: 50px;
 }
 
-.flow-skill .garis-4 {
+.flow-skill .line-4 {
     border-left: 1px solid black;
     height:20px;
     margin-left: 115px;
@@ -512,7 +513,7 @@ padding-bottom: 12px;
     font-size: 12px;
 }
 
-.flow-skill .garis-5 {
+.flow-skill .line-5 {
     border-left: 1px solid black;
     height:20px;
     margin-left: 30px;
@@ -530,7 +531,7 @@ padding-bottom: 12px;
     margin-left: 5px;
 }
 
-.flow-skill .garis-6 {
+.flow-skill .line-6 {
     border-left: 1px solid black;
     height:20px;
     margin-left: 90px;
@@ -548,18 +549,18 @@ padding-bottom: 12px;
     margin-left: 70px;
 }
 
-.skills {
+.container-skills {
     margin: 15px 0 0 15px;
     color: #2a62ad;
 }
 
-.skills h1 {
+.container-skills h1 {
     font-size: 30px;
     text-decoration: underline 2px;
     font-weight: bold;
 }
 
-.skills .icon-skill {
+.container-skills .icon-skill {
     margin: 15px 0 0 0;
     font-size: 40px;
 }
@@ -584,17 +585,17 @@ padding-bottom: 12px;
     color: #29beb0;
 }
 
-.work {
+.container-work {
     margin: 15px 0 0 15px;
     color: #2a62ad;
 }
 
-.work h1 {
+.container-work h1 {
     font-size: 30px;
     text-decoration: underline 2px;
 }
 
-.ket-work {
+.list-work {
     margin: 15px 0 0 0;
     font-size: 12px;
     line-height: 1.5;
