@@ -1,13 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, strong, sub, sup, tt, var, 
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td,
@@ -41,10 +36,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-/* table {
+table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} */
+}
 
 /* Other Styling */
 
@@ -143,17 +138,7 @@ body {
     padding: 5px 0 0 0;
 }
 
-.container-languages .languages .english {
-    display: flex;
-    flex-direction: row;
-}
-
-.container-languages .languages .japanese {
-    display: flex;
-    flex-direction: row;
-}
-
-.container-languages .languages .arabic {
+.english, .japanese, .arabic {
     display: flex;
     flex-direction: row;
 }
@@ -264,12 +249,12 @@ body {
     position: absolute;
   }
   
-.photo-profile{
-      height: 120px;
-      width: 120px;
-      padding: 0;
-      margin-left:260px;
-      margin-top: 45px;
+.photo-profile {
+    height: 120px;
+    width: 120px;
+    padding: 0;
+    margin-left:260px;
+    margin-top: 45px;
 }
 
 .information {
@@ -290,18 +275,14 @@ body {
     margin-top: 0px;
 }
 
-.information .mail {
-    margin-top: -9px;
-}
-
-.information .address {
+.information .mail, .address {
     margin-top: -9px;
 }
 
 .description {
-margin-left: -5px;
-margin-right: 5px ;
-padding-bottom: 12px;
+    margin-left: -5px;
+    margin-right: 5px ;
+    padding-bottom: 12px;
 }
 
 .description p {
@@ -400,22 +381,11 @@ padding-bottom: 12px;
     margin-left: 83px;
 }
 
-.name-hist-1 .name-one .years-1 {
-    line-height: 2;
-}
-
-.name-hist-1 .name-two .years-2 {
-    line-height: 2;
-}
-
-.name-hist-1 .name-three .years-3 {
-    line-height: 2;
-}
-
-.name-hist-2 .name-four .years-4 {
-    line-height: 2;
-}
-.name-hist-2 .name-five .years-5 {
+.name-hist-1 .years-1,
+.name-hist-1 .years-2,
+.name-hist-1 .years-3,
+.name-hist-2 .years-4,
+.name-hist-2 .years-5 {
     line-height: 2;
 }
 
@@ -573,7 +543,7 @@ padding-bottom: 12px;
     color: #2965f1;
 }
 
-.fa-js{
+.fa-js { 
     color: #f0db4f;
 }
 
@@ -599,4 +569,8 @@ padding-bottom: 12px;
     margin: 15px 0 0 0;
     font-size: 12px;
     line-height: 1.5;
+}
+
+.table-work {
+    text-align: left;
 }
